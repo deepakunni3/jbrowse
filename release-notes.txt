@@ -10,6 +10,10 @@
 
   * jb_setup.js @enuggetry.
 
+  * Suppress execution of biodb-to-json.pl on sample data while running setup.sh
+    on MacOS High Sierra due to an issue where the script just runs indefinitely
+    and ends up taking all available disk space. (issue #946)
+
   ...
 
 
